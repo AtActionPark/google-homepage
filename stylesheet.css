@@ -1,0 +1,45 @@
+body{	
+}
+
+*{
+	margin:0;
+	padding: 0;
+	/*border: solid 1px black;*/
+}
+
+#wrapper{
+	width:500px;
+	height:170px;
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding : 0 300px;
+
+}
+
+#searchform{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	top: 10px;
+	width:500px;
+}
+
+#logo{
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+	float right;
+	height:100px;
+	width:300px;
+}
+#submit{
+	position: relative;
+	top:10px;
+	left:100px;
+}
+#submit2{
+	position: relative;
+	top:10px;
+	left:140px;
+}
