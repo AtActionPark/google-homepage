@@ -6,14 +6,51 @@
 </head>
 
 <body>
+	<div id="header">
+		<ul>
+			<li><a href="https://plus.google.com/">+User</a></li>
+			<li><a href="https://mail.google.com/">Gmail</a></li>
+			<li><a href="https://www.google.com/imghp">Images</a></li>
+
+			<li><a class="header_img" href=""><img src="Images/Applications.png"
+			 	onmouseover="this.src='Images/ApplicationsBlack.png';"
+         		onmouseout="this.src='Images/Applications.png';"/></a></li>
+			<li><a class="header_img" href=""><img src="Images/Notifications.png"
+				onmouseover="this.src='Images/NotificationsBlack.png';"
+         		onmouseout="this.src='Images/Notifications.png';"/></a></li>
+			<li><a class="header_img" href=""><img src="Images/Partager.png"
+				onmouseover="this.src='Images/PartagerBlack.png';"
+         		onmouseout="this.src='Images/Partager.png';"/></a></li>
+			<li><a href=""><img src="Images/Compte.png"/></a></li>
+		</ul>
+	</div>
+
 	<div id="wrapper">
 		<img id="logo"src="http://www.google.com/images/srpr/logo11w.png"/>
+		<div id="language">France</div>
 
 		<form id="searchform">
-			<input type="text" name="search" maxlength="100" size="80">
-			<input id="submit" type="submit" value ="Recherche Google">
-			<input id="submit2" type="submit" value ="J'ai de la chance">
+			<input id="textbox" type="text" name="search_box" maxlength="100" size="80">
+			<input class="button" name ="google_search" type="submit" value ="Google Search">
+			<input class="button" name="lucky" type="submit" value ="I'm Feeling Lucky">
+			<a id="mic_img" href=""><img src="Images/Mic.png"
+			 	onmouseover="this.src='Images/MicBlack.png';"
+         		onmouseout="this.src='Images/Mic.png';"/></a>
 		</form>
+	</div>
+
+	<div id="footer">
+		<ul id="left">
+			<li><a href="">Advertising</a></li>
+			<li><a href="">Business</a></li>
+			<li><a href="">About</a></li>
+		</ul>
+		<ul id="right">
+			<li><a href="">Privacy</a></li>
+			<li><a href="">Terms</a></li>
+			<li><a href="">Settings</a></li>
+		</ul>
+		
 	</div>
 </body>
 
